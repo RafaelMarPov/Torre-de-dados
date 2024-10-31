@@ -30,8 +30,10 @@ El concepto permanece pero ahora diseñado en Tinkercad e impreso en 3D.
   
 ### 3<sup>er</sup> Prototipo:
 </summary>
+Para el tercer prototipo se proponen varias ideas que solventen el problema actual con los d4 (Diseñado en tinkercad):
 
-- Diseñado en tinkercad, con un sistema de engranajes que transforma el mavimiento circular del servo en rectilínio. Con este movimiento se desplazarán un conjunto de plataformas que permiten la dispensión de un dado mientras se mantiene el siguiente arriba.
-- Como diseño alternativo, una plataforma circular gira bajo el tubo de almacenamiento. Esta plataforma cuenta con un agujero que permite la entada de un solo dado y que evita la de los siguientes.
-
+- Uun sistema de engranajes que transforma el mavimiento circular del servo en rectilínio. Con este movimiento se desplazarán un conjunto de plataformas que permiten la dispensión de un dado mientras se mantiene el siguiente arriba.
+- Una plataforma circular gira bajo el tubo de almacenamiento. Esta plataforma cuenta con un agujero que permite la entada de un solo dado y que evita la de los siguientes.
+- Un tubo de almacenamiento que dispensa los dados directamente sobre una plataforma con cuato espacios, que gira en el eje y. La rueda con forma de sumando dispensa los dados de uno en uno, impidiendo la salida del resto debido a su diseño. Para el d4 se alica un modelo especial de rueda con una forma más... peculiar. Esta rueda presenta extensiones en paralelo a la plataforma original que funcionan como ganchos y tapa con tal de contolar la caida de los dados.
+  > Paralelamente se trabaja en un sitema de recolección y clasificación de dados. Al igual que en el reconocimiento de voz.
 </details> 
