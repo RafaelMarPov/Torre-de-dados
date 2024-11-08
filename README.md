@@ -9,6 +9,7 @@
 </summary>
 
 Tubos de papel que conectan al fondo de un vaso, donde un servo los empuja por un agujero atraves de donde serían lanzados finalmente. 
+![1 Prot](https://github.com/user-attachments/assets/54b0a31c-0a96-4895-9a4c-9864de5f752e)
 #### Problemas: 
 - Los dados de tipo d4 presentan dificultades a la hora de ser apilados.
 </details>
