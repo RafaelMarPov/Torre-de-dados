@@ -4,4 +4,9 @@
   - [Codigo en Arduino](https://www.dropbox.com/scl/fi/75v022f0498o1ly5mlh1v/control_giro_360.ino?rlkey=givfcjaj6mc72fz464msb5vou&e=1&dl=0)
   
 ![Servo hakeado](https://github.com/user-attachments/assets/d61c8d45-3d48-4191-8b92-471ca02955a1)
-- 
+- Para el tercer prototip buscabamos algo plenamente funcional pero nos encontramos con varios obstaculos que ponian en rieso la viabilidad del proyecto.
+  - El tiemplo inverido era exesivo y a punto de terminat el 1er trimestre habiamos avanzado realmente poco.
+  - Las tres propuestas de diseños presentaban muchas dificultades. El sistema de engranajes necesario paro un mavimiento rectilinio era demasiado complejo. La plataforma giratoria era muy poco fiable por la inexactitud de      las simulaciones en tinkercd, que hacian muy dificil pensar en el modelo aplicado a la realidad. El proyecto de aspas giratotias también fracasó, entre otras por que el seervo requerido de 360 era dificil de otener y        poco eficiente ya que se descalibraba.
+  - el sitema de recoleccion de dados aun era una incognita que no nos habiamos parado a aborda pero suponiamos que su implemantación ni seria sencilla.
+- En busca de soluciones decartamos todos las ideas anteriores exceputo una, la plataforma giratoria. Una nueva versión de esta prometía mejores resultado y bastante mas fiables, empleando un servo 180 mucho mas práctico. Se   retocaron los últimos aspectos y pasamos a imprimirla.
+- Como alternativa se pensó en un nuevo diseño similar al anteriores propuestas, una plataforma en forma de V en posicion vertical que recoje los dados y los eja caer con un mevimiento de servo de 90 grados. Se puede aplicar   como un movimiento bidireccional que eje caer dos dados en sentidos opuestos o unidirccional, que deje caer un solo dado. 
