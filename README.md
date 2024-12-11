@@ -1,6 +1,7 @@
 # Torre de dados
 ### Objetivos: 
 - [ ] Funcional mediante reconocimiento de voz
+- [ ] Totalmente automatica
 - [ ] Visualmente atractiva (Dragón)
 <details>
 <summary>
