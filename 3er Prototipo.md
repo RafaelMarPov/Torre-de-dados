@@ -10,4 +10,6 @@
   - El sitema de recoleccion de dados aun era una incognita que no nos habiamos parado a abordar pero suponiamos que su implemantación no seria sencilla.
 - En busca de soluciones decartamos todos las ideas anteriores excepto una, la plataforma giratoria. Una nueva versión de esta prometía mejores resultado y bastante más fiables, empleando un servo 180 mucho mas práctico. Se   retocaron los últimos aspectos y pasamos a imprimirla.
 - Como alternativa se pensó en un nuevo diseño, similar al anteriores propuestas, una plataforma en forma de V en posicion vertical que recoje los dados y los deja caer con un mevimiento de servo de 90 grados. Se puede aplicar como un movimiento bidireccional que deje caer dos dados en sentidos opuestos o unidirccional, que deje caer un solo dado. 
-- Con la plataforma giratoria imprimiendose y la V también lista para imprimir, pasamos al reconocimiento de voz. 
+- Con la plataforma giratoria imprimiendose y la V también lista para imprimir, pasamos al reconocimiento de voz.
+- La plataforma fue un éxio, salvo pr el d4, pero se solucionaria rapidamente con un pequeño cambio en el modelo.
+- el problema actual era el tamaño qur iba a tener la torre
