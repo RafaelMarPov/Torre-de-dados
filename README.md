@@ -34,5 +34,5 @@ El concepto permanece pero ahora diseñado en Tinkercad e impreso en 3D.
 
 - El tercer prototipo fue unna etapa de transeformación. Múltiples conceptos parecían prometedores pero ninguno logro funcionar correctamente, o la menos en un primer momento. La plataforma giratoria fue recatada e implementada con un servo 180, pero eso ya es cosa del siguiente prototipo.
 
-- Todo es proceso de desarrolo del tercer prototipo esta [aqui](https://github.com/RafaelMarPov/Torre-de-dados/blob/readme-edits/3er%20Prototipo.md)
+- Todo el proceso de desarrollo del tercer prototipo esta [aqui](https://github.com/RafaelMarPov/Torre-de-dados/blob/readme-edits/3er%20Prototipo.md)
 </details> 
