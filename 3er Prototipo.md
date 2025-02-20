@@ -20,6 +20,6 @@
   - Las tres propuestas de diseños presentaban muchas dificultades. El sistema de engranajes necesario paro un mavimiento rectilinio era demasiado complejo. La plataforma giratoria era muy poco fiable por la inexactitud de las simulaciones en tinkercd, que hacian muy dificil pensar en el modelo aplicado a la realidad. El proyecto de aspas giratotias también fracasó, entre otras cosas, porque el servo requerido de 360 era dificil de otener y poco eficiente ya que se descalibraba.
   - El sitema de recolección de dados aun era una incognita que no nos habiamos parado a abordar pero suponiamos que su implemantación no seria sencilla.
  
-### Final del 3<>er</> prototipo
+### Final del 3<sup>er</sup> prototipo
 - En busca de soluciones decartamos todos las ideas anteriores excepto una, la plataforma giratoria. Una nueva versión de esta prometía mejores resultados y bastante más fiables, empleando un servo 180 mucho más práctico. 
 - Aunque el tercer prototipo no llegó a nada pero pero allanó el camio para un prometedor cuanto diseño.
