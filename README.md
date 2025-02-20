@@ -31,10 +31,8 @@ El concepto permanece pero ahora diseñado en Tinkercad e impreso en 3D.
   
 ### 3<sup>er</sup> Prototipo:
 </summary>
-Para el tercer prototipo se proponen varias ideas que solventen el problema actual con los d4 (Diseñado en tinkercad):
 
-- Un sistema de engranajes que transforma el mavimiento circular del servo en rectilínio. Con este movimiento se desplazarán un conjunto de plataformas que permiten la dispensión de un dado mientras se mantiene el siguiente arriba.
-- Una plataforma circular gira bajo el tubo de almacenamiento. Esta plataforma cuenta con un agujero que permite la entada de un solo dado y que evita la de los siguientes.
-- Un tubo de almacenamiento que dispensa los dados directamente sobre una plataforma con cuato espacios que gira en el eje y. La rueda con forma de sumando dispensa los dados de uno en uno, impidiendo la salida del resto debido a su diseño. Para el d4 se aplica un modelo especial de rueda con una forma más... peculiar. Esta rueda presenta extensiones en paralelo a la plataforma original que funcionan como ganchos y como tapa con tal de contolar la caida de los dados.
-  > Paralelamente se trabaja en un sitema de recolección y clasificación de dados, en el reconocimiento de voz y en conseguir que un servo de 180º en un srvo de giro completo
+- El tercer prototipo fue unna etapa de transeformación. Múltiples conceptos parecían prometedores pero ninguno logro funcionar correctamente, o la menos en un primer momento. La plataforma giratoria fue recatada e implementada con un servo 180, pero eso ya es cosa del siguiente prototipo.
+
+- Todo es proceso de desarrolo del tercer prototipo esta "aqui"
 </details> 
