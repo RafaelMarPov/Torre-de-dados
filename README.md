@@ -36,3 +36,12 @@ El concepto permanece pero ahora diseñado en Tinkercad e impreso en 3D.
 
 - Todo el proceso de desarrollo del tercer prototipo esta [aqui](https://github.com/RafaelMarPov/Torre-de-dados/blob/readme-edits/3er%20Prototipo.md)
 </details> 
+<details> 
+<summary> 
+  
+### 4º Prototipo:
+</summary>
+
+- Cosas varias, varias cosas
+</details> 
+
