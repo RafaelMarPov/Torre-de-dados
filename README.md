@@ -43,5 +43,6 @@ El concepto permanece pero ahora diseñado en Tinkercad e impreso en 3D.
 </summary>
 
 - Cosas varias, varias cosas
+- [Proceso de creación](https://github.com/RafaelMarPov/Torre-de-dados/blob/readme-edits/4%C2%BA%20Prototipo.md)
 </details> 
 
