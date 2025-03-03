@@ -1,4 +1,4 @@
-xm,# Proceso de creación del cuarto prototipo
+# Proceso de creación del cuarto prototipo
 
 ### El fin se acerca
 - Tras los mecanismos descartados durante el anterior prototipo, para este solo nos quedaba lo mejor. La plataforma giratoria
