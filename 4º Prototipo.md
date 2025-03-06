@@ -10,11 +10,28 @@
 - El codigo causó algun problema, debido al la complejidad de lo requerido (siete botones conectados a siete servos, contar la cantidad de veces que se ha pulsado cada botón y mover el servo correspodiente dicha cantidad; ademas de el limitado numero de pines) pero con un poco de ayuda externa y paciencia se consuguió un código al menos funcional en una simulación de Tinkercad.
 ### El Modelado
 - La iea del modelo era la sigiente: una torre de cuya puerta asomaba un dragón que dejaría caer los dados por su boca. En la cima de la torre las alcmenas funcionaban como recipiente para los dados que caían hasta el dragón. Desde la parte superior también bajaba una escalera de caracol en caso que que quisieses tirar los dados con normalidad y estos caerían desde una ventana. La aplicación de todo esto en un modelo real ocasionó algunos problemas.
-> Complicaciones 
+> Complicaciones:
 >- El modelado fue un dolor de cabeza, ajustar las medidas para que quedadse estético y que todos los macanismos funcionasen correctamente fue una tarea tediosa y compicada.
 >- Además estaba siendo modelado en Blender, que aunque presenteba muchas más opciones que Tinkercad era mucho menos intuitivo.
 >- A esto se le suma la falta de conocimientos sobre el programa, por mucho que poco a poco las cosas fueran saliendo más fluidas,los errores inesperado y aparentemente inexplicables seguían apareciendo.
 >- Cuando se intentó exportar el modelo a Tinkercad para probar su sistema de físias en la caida de los dados, el modelo se corrompía totalmente y presentaba errores por todas partes, haciendo implosible esta prueba de físicas.
 >- La escalera debia ser una espiral y estar modelada de la forma correcta para que los dados bajasen de la mejor forma posible. Mediante la documentación se logró crear una escalera totalmente funcional.
 ### El Reconocimiento de Voz
-- En la recta final del proyecto solo faltava el reconocimiento de voz. Tras una larga investigación y con la ayuda de IAs se concluyo que la el modulo "" era el mejor
+  En la recta final empezamos con el reconocimiento de voz. Nuestra primera opción eran los modulos que abarcasen esta función.Tras una larga investigación y con la ayuda de IAs se concluyo que estos modulos no
+  eran adecuados para el proyecto. La segunda opcion eran los programas "speech to text" que transformaban la voz en texto que podriamos implementar en el código. Despues de investigar más decidimos usar el programa
+  Whisper, ya que, a diferencia de otros, era gratuito e ilimitado; no requería tarjeta y operaba de forma offline.
+  #### Instalación de Whisper
+- Para instalar Whisper y poder implementerlo con nuestro código de Arduino se necesitaban una serie de requisitos y seguir determinados pasos. Al principio nos centramos solo en istalarlo en el orenador para probar su     funcionamiento.
+  - Primero se debía instalar Python en el PC,marcando la opcion "Add Python to PATH".
+  - Luego se requería la instalación de Chocolatey mediante PowerShell. Esto se hacía abriendo PawerShell como administrador y ejecutando el siguiente comando:
+  > Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object             System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+  - Ahora tocaba intalar FFmpeg, ecribiendo en PowerShell el comando:
+  > choco install ffmpeg
+  - Seguía la instalación de PyTorch, para lo que se necesitaba ir a [pytorch.org](https://pytorch.org/get-started/locally/) y seguir las instrucciones para instalar PyTorch según tu sistema operativo y tarjeta gráfica.
+  - Finalmente puedes instalar Whisper. Abre una terminal (CMD o PowerShell) y ejecuta el siguiente comando:
+  > pip install -U openai-whisper
+  - Ya puedes usar Whisper para transcribir un archivo de audio, usa el siguiente comando:
+  > whisper audio_file_name --model medium
+- Si prefieres una guía visual, puedes seguir este [video tutorial](https://www.youtube.com/watch?v=cgDO-JAhoHg) que explica el proceso paso a paso.
+### Implementacion de Whisper
+- Para omplementar Whisper el proyecto se requiere un intermediario ya que no se admite Arduino por sus limitaciones. Con Raspberry Pi es posible transcribir el mensaje de Whisper a Arduino.
