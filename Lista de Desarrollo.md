@@ -1,5 +1,7 @@
 # Planificación
 
-[ ] Cosas 1
-
-[ ] Cosas 2
+- [ ] Reconociiento de voz.
+- [ ] Modelo.
+- [ ] 3
+- [ ] 4
+- [ ] 5
