@@ -35,3 +35,33 @@
 - Si prefieres una guía visual, puedes seguir este [video tutorial](https://www.youtube.com/watch?v=cgDO-JAhoHg) que explica el proceso paso a paso.
 ### Implementacion de Whisper
 - Para omplementar Whisper el proyecto se requiere un intermediario ya que no se admite Arduino por sus limitaciones. Con Raspberry Pi es posible transcribir el mensaje de Whisper a Arduino.
+### Google Assistant
+- **Paso 1:** Configurar Google Assistant
+  - Instala Google Assistant en tu dispositivo móvil.
+  - Configura tu cuenta de Google y asegúrate de que Google Assistant esté activado.
+
+- **Paso 2:** Crear una cuenta en IFTTT
+  - Regístrate en IFTTT (https://ifttt.com/) y crea una cuenta gratuita.
+  - Conecta Google Assistant a IFTTT siguiendo las instrucciones en la plataforma.
+
+- **Paso 3:** Configurar Arduino Uno
+  - Conecta tu Arduino Uno a tu computadora y abre el IDE de Arduino.
+  - Instala las librerías necesarias para conectar tu Arduino a internet, como WiFi101 o ESP8266WiFi, dependiendo del módulo -- que estés usando.
+  - Escribe el código para controlar el servo y otros componentes. Aquí tienes un ejemplo básico para mover un servo:
+  - Sube el código a tu Arduino Uno.
+
+- **Paso 4:** Conectar Arduino a la nube
+  - Configura una plataforma en la nube como Arduino IoT Cloud (https://create.arduino.cc/iot/).
+  - Crea un nuevo dispositivo y selecciona tu Arduino Uno.
+  - Configura las variables y el código necesario para enviar y recibir datos desde la nube.
+
+- **Paso 5:** Crear applets en IFTTT
+  - Crea un nuevo applet en IFTTT.
+  - Selecciona Google Assistant como el disparador (If This).
+  - Configura el comando de voz que deseas usar, por ejemplo, "Mueve el servo".
+  - Selecciona Webhooks como la acción (Then That).
+  - Configura la URL del webhook para enviar una solicitud HTTP a tu Arduino a través de la nube.
+
+- **Paso 6:** Entrenar y probar
+  - Prueba el comando de voz con Google Assistant.
+  - Verifica que el Arduino reciba la solicitud y ejecute la acción correspondiente.
