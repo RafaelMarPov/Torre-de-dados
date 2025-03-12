@@ -16,11 +16,18 @@
 >- A esto se le suma la falta de conocimientos sobre el programa, por mucho que poco a poco las cosas fueran saliendo más fluidas,los errores inesperado y aparentemente inexplicables seguían apareciendo.
 >- Cuando se intentó exportar el modelo a Tinkercad para probar su sistema de físias en la caida de los dados, el modelo se corrompía totalmente y presentaba errores por todas partes, haciendo implosible esta prueba de físicas.
 >- La escalera debia ser una espiral y estar modelada de la forma correcta para que los dados bajasen de la mejor forma posible. Mediante la documentación se logró crear una escalera totalmente funcional.
+
 ## El Reconocimiento de Voz
   En la recta final empezamos con el reconocimiento de voz. Nuestra primera opción eran los modulos que abarcasen esta función.Tras una larga investigación y con la ayuda de IAs se concluyo que estos modulos no
   eran adecuados para el proyecto. La segunda opcion eran los programas "speech to text" que transformaban la voz en texto que podriamos implementar en el código. Despues de investigar más decidimos usar el programa
   Whisper, ya que, a diferencia de otros, era gratuito e ilimitado; no requería tarjeta y operaba de forma offline.
+<details>
+<summary>
+  
   ### Instalación de Whisper
+  
+</summary>
+
 - Para instalar Whisper y poder implementerlo con nuestro código de Arduino se necesitaban una serie de requisitos y seguir determinados pasos. Al principio nos centramos solo en istalarlo en el orenador para probar su     funcionamiento.
   - Primero se debía instalar Python en el PC,marcando la opcion "Add Python to PATH".
   - Luego se requería la instalación de Chocolatey mediante PowerShell. Esto se hacía abriendo PawerShell como administrador y ejecutando el siguiente comando:
@@ -35,7 +42,14 @@
 - Si prefieres una guía visual, puedes seguir este [video tutorial](https://www.youtube.com/watch?v=cgDO-JAhoHg) que explica el proceso paso a paso.
 ### Implementacion de Whisper
 - Para omplementar Whisper el proyecto se requiere un intermediario ya que no se admite Arduino por sus limitaciones. Con Raspberry Pi es posible transcribir el mensaje de Whisper a Arduino.
-### Google Assistant
+</details>
+
+<details>
+<summary>
+  
+## Google Assistant
+</summary>
+
 - **Paso 1:** Configurar Google Assistant
   - Instala Google Assistant en tu dispositivo móvil.
   - Configura tu cuenta de Google y asegúrate de que Google Assistant esté activado.
@@ -65,3 +79,4 @@
 - **Paso 6:** Entrenar y probar
   - Prueba el comando de voz con Google Assistant.
   - Verifica que el Arduino reciba la solicitud y ejecute la acción correspondiente.
+  </details>
