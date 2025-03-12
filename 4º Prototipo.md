@@ -47,7 +47,7 @@
 <details>
 <summary>
   
-## Google Assistant
+### Google Assistant
 </summary>
 
 - **Paso 1:** Configurar Google Assistant
