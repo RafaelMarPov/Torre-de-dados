@@ -20,11 +20,11 @@
 ## El Reconocimiento de Voz
   En la recta final empezamos con el reconocimiento de voz. Nuestra primera opción eran los modulos que abarcasen esta función.Tras una larga investigación y con la ayuda de IAs se concluyo que estos modulos no
   eran adecuados para el proyecto. La segunda opcion eran los programas "speech to text" que transformaban la voz en texto que podriamos implementar en el código. Despues de investigar más decidimos usar el programa
-  Whisper, ya que, a diferencia de otros, era gratuito e ilimitado; no requería tarjeta y operaba de forma offline.
+  Whisper, ya que, a diferencia de otros, era gratuito e ilimitado; no requería tarjeta y operaba de forma offline. Por distintos motivos se descartaron este y nuestro otra opción de usar Google assistant para usar Appp inventor
 <details>
 <summary>
   
-  ### Instalación de Whisper
+  ### Instalación de Whisper (no usado)
   
 </summary>
 
@@ -47,7 +47,7 @@
 <details>
 <summary>
   
-### Google Assistant
+### Google Assistant (no usado)
 </summary>
 
 - **Paso 1:** Configurar Google Assistant
@@ -79,4 +79,9 @@
 - **Paso 6:** Entrenar y probar
   - Prueba el comando de voz con Google Assistant.
   - Verifica que el Arduino reciba la solicitud y ejecute la acción correspondiente.
-  </details>
+  </details> 
+
+### App inentor + Módulo Bluetooth HC-05
+
+- Se crea una sencilla aplicación en app inventor que reconozca voz y la pase a texto. Esta aplicación se conecta con bluetooth al módulo HC-05 y este al arduino, que recive las ordenes
+  
