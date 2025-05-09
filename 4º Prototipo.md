@@ -18,9 +18,9 @@
 >- La escalera debia ser una espiral y estar modelada de la forma correcta para que los dados bajasen de la mejor forma posible. Mediante la documentación se logró crear una escalera totalmente funcional.
 
 ## El Reconocimiento de Voz
-  En la recta final empezamos con el reconocimiento de voz. Nuestra primera opción eran los modulos que abarcasen esta función.Tras una larga investigación y con la ayuda de IAs se concluyo que estos modulos no
+  En la recta final empezamos con el reconocimiento de voz. Nuestra primera opción eran los modulos que abarcasen esta función. Tras una larga investigación y con la ayuda de IAs se concluyó que estos modulos no
   eran adecuados para el proyecto. La segunda opcion eran los programas "speech to text" que transformaban la voz en texto que podriamos implementar en el código. Despues de investigar más decidimos usar el programa
-  Whisper, ya que, a diferencia de otros, era gratuito e ilimitado; no requería tarjeta y operaba de forma offline. Por distintos motivos se descartaron este y nuestro otra opción de usar Google assistant para usar Appp inventor
+  Whisper, ya que, a diferencia de otros, era gratuito e ilimitado; no requería tarjeta y operaba de forma offline. Por distintos motivos se descartaron este y nuestra otra opción de usar Google assistant para usar, de forma definitiva, Appp inventor
 <details>
 <summary>
   
@@ -81,7 +81,7 @@
   - Verifica que el Arduino reciba la solicitud y ejecute la acción correspondiente.
   </details> 
 
-### App inentor + Módulo Bluetooth HC-05
+### App inentor + Módulo Bluetooth HC-05 (Implementación final)
 
 - Se crea una sencilla aplicación en app inventor que reconozca voz y la pase a texto. Esta aplicación se conecta con bluetooth al módulo HC-05 y este al arduino, que recive las ordenes
   
