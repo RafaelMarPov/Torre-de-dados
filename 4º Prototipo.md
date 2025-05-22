@@ -9,7 +9,7 @@
 ## El Código 
 - El codigo causó algun problema, debido al la complejidad de lo requerido (siete botones conectados a siete servos, contar la cantidad de veces que se ha pulsado cada botón y mover el servo correspodiente dicha cantidad; ademas de el limitado numero de pines) pero con un poco de ayuda externa y paciencia se consuguió un código al menos funcional en una simulación de Tinkercad.
 ## El Modelado
-- La iea del modelo era la sigiente: una torre de cuya puerta asomaba un dragón que dejaría caer los dados por su boca. En la cima de la torre las alcmenas funcionaban como recipiente para los dados que caían hasta el dragón. Desde la parte superior también bajaba una escalera de caracol en caso que que quisieses tirar los dados con normalidad y estos caerían desde una ventana. La aplicación de todo esto en un modelo real ocasionó algunos problemas.
+- La idea del modelo era la sigiente: una torre de cuya puerta asomaba un dragón que dejaría caer los dados por su boca. En la cima de la torre las alcmenas funcionaban como recipiente para los dados que caían hasta el dragón. Desde la parte superior también bajaba una escalera de caracol en caso que que quisieses tirar los dados con normalidad y estos caerían desde una ventana. La aplicación de todo esto en un modelo real ocasionó algunos problemas.
 > Complicaciones:
 >- El modelado fue un dolor de cabeza, ajustar las medidas para que quedadse estético y que todos los macanismos funcionasen correctamente fue una tarea tediosa y compicada.
 >- Además estaba siendo modelado en Blender, que aunque presenteba muchas más opciones que Tinkercad era mucho menos intuitivo.
