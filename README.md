@@ -1,7 +1,7 @@
 # Torre de dados
 ### Objetivos: 
-- [ ] Funcional mediante reconocimiento de voz
-- [ ] Automática
+- [x] Funcional mediante reconocimiento de voz
+- [x] Totalmente automatica
 - [ ] Visualmente atractiva (Dragón)
 <details>
 <summary>
@@ -10,6 +10,7 @@
 </summary>
 
 Tubos de papel que conectan al fondo de un vaso, donde un servo los empuja por un agujero atraves de donde serían lanzados finalmente. 
+![1 Prot](https://github.com/user-attachments/assets/54b0a31c-0a96-4895-9a4c-9864de5f752e)
 #### Problemas: 
 - Los dados de tipo d4 presentan dificultades a la hora de ser apilados.
 </details>
@@ -30,10 +31,18 @@ El concepto permanece pero ahora diseñado en Tinkercad e impreso en 3D.
   
 ### 3<sup>er</sup> Prototipo:
 </summary>
-Para el tercer prototipo se proponen varias ideas que solventen el problema actual con los d4 (Diseñado en tinkercad):
 
-- Un sistema de engranajes que transforma el mavimiento circular del servo en rectilínio. Con este movimiento se desplazarán un conjunto de plataformas que permiten la dispensión de un dado mientras se mantiene el siguiente arriba.
-- Una plataforma circular gira bajo el tubo de almacenamiento. Esta plataforma cuenta con un agujero que permite la entada de un solo dado y que evita la de los siguientes.
-- Un tubo de almacenamiento que dispensa los dados directamente sobre una plataforma con cuato espacios que gira en el eje y. La rueda con forma de sumando dispensa los dados de uno en uno, impidiendo la salida del resto debido a su diseño. Para el d4 se alica un modelo especial de rueda con una forma más... peculiar. Esta rueda presenta extensiones en paralelo a la plataforma original que funcionan como ganchos y como tapa con tal de contolar la caida de los dados.
-  > Paralelamente se trabaja en un sitema de recolección y clasificación de dados. Al igual que en el reconocimiento de voz.
+- El tercer prototipo fue una etapa de transformación. Múltiples conceptos parecían prometedores pero ninguno logró funcionar correctamente, o al menos en un primer momento. La plataforma giratoria fue rescatada e implementada con un servo 180, pero eso ya es cosa del siguiente prototipo.
+
+- Todo el proceso de desarrollo del tercer prototipo esta [aqui](https://github.com/RafaelMarPov/Torre-de-dados/blob/readme-edits/3er%20Prototipo.md)
 </details> 
+<details> 
+<summary> 
+  
+### 4º Prototipo:
+</summary>
+
+- La recta final, hora de llebar lo teórico a lo práctico.
+- [Proceso de creación](https://github.com/RafaelMarPov/Torre-de-dados/blob/readme-edits/4%C2%BA%20Prototipo.md)
+</details> 
+
